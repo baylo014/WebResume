@@ -1,3 +1,4 @@
+/* Variables to store all the elements*/
 var pyModal = document.getElementById('pyModal');
 var javaModal = document.getElementById('javaModal');
 var cModal = document.getElementById('cModal');
@@ -12,7 +13,7 @@ var pyClose = document.getElementsByClassName("close")[0];
 var javaClose = document.getElementsByClassName("close")[1];
 var cClose = document.getElementsByClassName("close")[2];
 var cppClose = document.getElementsByClassName("close")[3];
-
+/* On click functions to open the modal */
 pyBtn.onclick = function () {
   pyModal.style.display = "block";
 };
@@ -25,7 +26,7 @@ cBtn.onclick = function () {
 cppBtn.onclick = function () {
   cppModal.style.display = "block";
 };
-
+/* Closing functions the use the "x" to click. */
 pyClose.onclick = function () {
   pyModal.style.display = "none";
   javaModal.style.display = "none";
@@ -41,7 +42,7 @@ cClose.onclick = function () {
 cppClose.onclick = function () {
   cppModal.style.display = "none";
 };
-
+/* Clicking anywhere outside the modal will also close it. */
 window.onclick = function (event) {
   if (event.target === pyModal) {
     pyModal.style.display = "none";
