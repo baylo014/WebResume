@@ -145,6 +145,17 @@ h6 {
 }
 
 /* Popup CSS */
+.link {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
 .modal {
   display: none;
   position: fixed;
