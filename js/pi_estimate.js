@@ -59,7 +59,8 @@ function draw() {
     count += 1;
   });
   fill(255, 255, 255)
-  text("Pi estimate: " + nfc((in_tot / count) * 4, 3), -300, -150);
+  text("Pi estimate: ", -300, -150);
+  text(nfc((in_tot / count) * 4, 10), -300, -130);
   text("# of dots: " + slider.value(), -300, -170);
 }
 
