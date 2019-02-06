@@ -1,7 +1,17 @@
+/* Custom Stylings */
 body {
   padding-top: 70px;
 }
 
+a {
+  color: #007bff;
+}
+
+a:hover {
+  color: blue;
+}
+
+/* Blog Styling*/
 /* stylelint-disable selector-list-comma-newline-after */
 
 .blog-header {
