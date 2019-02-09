@@ -33,11 +33,21 @@
         <li class="nav-item">
           <a class="nav-link" href="../index.html">Home</a>
         </li>
-        <li class=" nav-item active">
-          <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects <span class="sr-only">(current)</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="program.html">Overview</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="program.html#c">C/C++</a>
+            <a class="dropdown-item" href="program.html#java">Java</a>
+            <a class="dropdown-item" href="web.html#js">Javascript</a>
+            <a class="dropdown-item" href="program.html#python">Python</a>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="web.html">Web</a>
+          <a class="nav-link" href="web.html">Web Developement</a>
         </li>
       </ul>
     </div>
@@ -82,7 +92,7 @@
         </div>
         <div id="pyModal" class="modal">
           <div class="modal-content">
-            <span class="close">&times;</span>
+            <span class="close"><i class="fas fa-times fa-xs"></i></span>
 
             <p> Python is one of my strongest languages. I've worked on many projects using this language and have even used it to help teach programming concepts. </p>
             <p> One project I've worked on using Python was creating a DNS server. This project was to use socket-based programing to mimic a real world DNS server system. It was built to allow a controlable amount of clients to connect to the server, as well as to be expandable if more servers were needed. The version that this project used had 5 total servers to mimic a local DNS server, a Root DNS Server, and then a Server for .com, .gov, and .org urls. </p>
@@ -106,7 +116,7 @@
         </div>
         <div id="javaModal" class="modal">
           <div class="modal-content">
-            <span class="close">&times;</span>
+            <span class="close"><i class="fas fa-times fa-xs"></i></span>
             <p>Data Structures</p>
             <p>Android Applications</p>
             <p> Graphics using processing </p>
@@ -128,7 +138,7 @@
         </div>
         <div id="cModal" class="modal">
           <div class="modal-content">
-            <span class="close">&times;</span>
+            <span class="close"><i class="fas fa-times fa-xs"></i></span>
             <p>Chat Application.</p>
             <p>Web Server</p>
           </div>
@@ -149,7 +159,7 @@
         </div>
         <div id="cppModal" class="modal">
           <div class="modal-content">
-            <span class="close">&times;</span>
+            <span class="close"><i class="fas fa-times fa-xs"></i></span>
             <p>Graphics. Insert Images. MinGFX Library</p>
             <ul>
               <li>Shading</li>
@@ -177,8 +187,8 @@
             <li><a href="#c">C/C++</a></li>
             <li><a href="#python">Python</a></li>
             <li><a href="#java">Java</a></li>
+            <li><a href="web.html#js">Javascript</a></li>
             <li><a href="web.html">Web</a></li>
-            <li><a href="js.html">Javascript</a></li>
           </ol>
         </div>
 
