@@ -27,13 +27,13 @@ String.prototype.trunc =
   };
 
 var pyPre = document.getElementsByClassName("pyText")[0].textContent;
-document.getElementById("pyPreview").innerHTML = pyPre.trunc(400, true);
+document.getElementById("pyPreview").innerHTML = pyPre.trunc(300, true);
 var javaPre = document.getElementsByClassName("javaText")[0].textContent;
-document.getElementById("javaPreview").innerHTML = javaPre.trunc(400, true);
+document.getElementById("javaPreview").innerHTML = javaPre.trunc(300, true);
 var cPre = document.getElementsByClassName("cText")[0].textContent;
-document.getElementById("cPreview").innerHTML = cPre.trunc(400, true);
+document.getElementById("cPreview").innerHTML = cPre.trunc(300, true);
 var cppPre = document.getElementsByClassName("c++Text")[0].textContent;
-document.getElementById("c++Preview").innerHTML = cppPre.trunc(400, true);
+document.getElementById("c++Preview").innerHTML = cppPre.trunc(300, true);
 
 /* On click functions to open the modal */
 pyBtn.onclick = function () {
