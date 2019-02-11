@@ -25,7 +25,7 @@ String.prototype.trunc =
       subString.substr(0, subString.lastIndexOf(' ')) :
       subString) + "&hellip;";
   };
-
+/* End of cited code */
 var pyPre = document.getElementsByClassName("pyText")[0].textContent;
 document.getElementById("pyPreview").innerHTML = pyPre.trunc(300, true);
 var javaPre = document.getElementsByClassName("javaText")[0].textContent;
